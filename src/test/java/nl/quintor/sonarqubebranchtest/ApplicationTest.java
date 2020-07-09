@@ -38,4 +38,11 @@ public class ApplicationTest {
 
         assertFalse(application.isArrayEmpty(new String[]{"item"}));
     }
+
+    @Test
+    public void beUseless() {
+        Application application = new Application();
+        assertTrue(true);
+        assertFalse(application.isArrayEmpty(new String[]{"item"}));
+    }
 }
