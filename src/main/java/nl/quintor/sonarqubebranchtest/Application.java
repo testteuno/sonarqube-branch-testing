@@ -18,10 +18,16 @@ public class Application {
 
         if (isArrayEmpty(args)) {
             LOG.info("Args is empty");
-        }
-        else {
+        } else {
             LOG.info("Args is not empty");
         }
+        System.out.println("Sonar Issue, yay");
+
+        System.out.println("Sonar Issue, yay");
+        System.out.println("Sonar Issue, yay");
+        System.out.println("Sonar Issue, yay");
+        System.out.println("Sonar Issue, yay");
+
     }
 
     public boolean isArrayEmpty(String[] args) {
